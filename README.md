@@ -34,14 +34,15 @@ TypeScript
 npm run dev:ts
 ```
 
-INSTRUCTIONS
+## INSTRUCTIONS
 
 1.  Go to https://baywa.de
 2.  Analyze the page and its modules
 3.  Create a clean, semantic HTML structure to the best of your abilities.
 4.  Please note, that we want to see mobile and desktop functionality/breakpoints.
 
-EXTERNAL ASSETS:
+### EXTERNAL ASSETS:
+
 SVG assets can be skipped for now – you can use the existing vite.svg as a placeholder.
 Image URLS:
 
