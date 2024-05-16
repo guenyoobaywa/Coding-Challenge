@@ -1,30 +1,80 @@
-# React + TypeScript + Vite
+# BayWa Coding Challenge Frontend
+You can use an Editor of your choice, but please make sure you don't use any assistive AI Technologies like Github Copilot.
+If you want to use AI, please do it in a way that we can see/follow the way you ask questions so we can see the process behind your thinking.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+So for example ChatGPT would be ok, as well as googling, as long as no code is being suggested in your editor.
 
-Currently, two official plugins are available:
+INSTRUCTIONS
+ 1. Go to https://baywa.de
+ 2. Analyze the page and its modules
+ 3. Create a clean, semantic HTML structure to the best of your abilities.
+ 4. Please note, that we want to see mobile and desktop functionality/breakpoints.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+EXTERNAL ASSETS:
+SVG assets can be skipped for now – you can use the existing vite.svg as a placeholder.
+Image URLS:
+* Landwirtschaftsportal: /baywa-landwirtschaft.jpg
+* Baustoffportal:	/baywa-baustoffe.jpg
+* Energieportal:	/baywa-energie.jpg
 
-## Expanding the ESLint configuration
+PAGE STRUCTURE (in Markdown)
+# Landing page elements
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Top navigation
 
-- Configure the top-level `parserOptions` property like this:
+### Shop Tabs
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+These can be ignored for now, as they come from a common library
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Header
+
+This has the company logo and claim on the left side, and a link to the user's account on the right
+
+## Link lists
+
+Our links are divided into three groups
+
+* Landwirtschaft (with image)
+  * [Tierhaltung](/link)
+  * [Pflanzenbau](/link)
+  * [Ersatzteile](/link)
+  * [Maschinen](/link)
+  * [Hof & Garten](/link)
+
+* Baustoffe (with image)
+  * [Baugeräte & Werkzeuge](/link)
+  * [Garten](/link)
+  * [Dach](/link)
+  * [Innenausbau](/link)
+  * [ganzes Sortiment entdecken](/link)
+
+* Energie (with image)
+  * [Heizöl](/link)
+  * [Diesel](/link)
+  * [Holzpellets](/link)
+  * [Schmierstoffe](/link)
+  * [Tankkarten & neue Mobilität](/link)
+
+## Contact and jobs
+
+### Kontakt-Center
+
+Haben Sie Fragen?
+Wir helfen Ihnen gerne.
+Bitte wählen Sie Ihren gewünschten Bereich aus:
+
+* Landwirtschaft
+* Baustoffe
+* Energie
+
+## Footer
+
+(left side)
+* © BayWa AG
+
+(right side)
+* Impressum
+* AGB
+* Datenschutz
+* Hinweisgeber-System
+* Cookie-Einstellung
