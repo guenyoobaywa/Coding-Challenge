@@ -1,0 +1,43 @@
+{
+  "Landwirtschaft": {
+    "image": {
+      "href": "/baywa-landwirtschaft.png",
+      "alt": "",
+      "title": "Landwirtschaft"
+    },
+    "nav": [
+      { "name": "Pflanzenbau", "href": "/pflanzenbau" },
+      { "name": "Tierhaltung", "href": "/tierhaltung" },
+      { "name": "Ersatzteile", "href": "/ersatzteile" },
+      { "name": "Maschinen", "href": "/maschinen" },
+      { "name": "Hof & Garten", "href": "/hof-und-garten" }
+    ]
+  },
+  "Baustoffe": {
+    "image": {
+      "href": "/baywa-baustoffe.png",
+      "alt": "",
+      "title": "Baustoffe"
+    },
+    "nav": [
+      { "name": "Profikunden Onlineshop", "href": "/profikunden-onlineshop" },
+      { "name": "Vorteile für Privatkunden", "href": "/vorteile-privatkunden" },
+      { "name": "Standorte finden", "href": "/video-und-telefonberatung" },
+      { "name": "Produktwelten entdecken", "href": "/produktwelten" }
+    ]
+  },
+  "Energie": {
+    "image": {
+      "href": "/baywa-energie.png",
+      "alt": "",
+      "title": "Energie"
+    },
+    "nav": [
+      { "name": "Heizöl", "href": "/heizoel" },
+      { "name": "Diesel", "href": "/diesel" },
+      { "name": "Holzpellets", "href": "/holzpellets" },
+      { "name": "Schmierstoffe", "href": "/schmierstoffe" },
+      { "name": "Tankkarten & neue Mobilität", "href": "/tankkarten" }
+    ]
+  }
+}

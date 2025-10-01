@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:react": "vite",
     "dev:js": "vite --config vite.config.vanilla.ts",
     "dev:ts": "vite --config vite.config.typescript.ts",
     "build": "tsc && vite build",
