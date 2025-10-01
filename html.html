@@ -1,24 +1,23 @@
-import './App.css';
-
-// Optional, use it if you want to:
-// import '../tailwind.css';
-
-// You can import these images and use them as img src down below:
-// import reactLogo from '../assets/react.svg'
-// import viteLogo from '/vite.svg'
-
-// or you can reference them in the src attribute like this:
-// "/vite.svg" -> this will point to /public/vite.svg
-
-function App() {
-  return (
-    <div>
-      <header>
-        <div>Herzlich willkommen!</div>
-        <div>Unsere Online-Shops und Service-Angebote</div>
-      </header>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React + TypeScript</title>
+  </head>
+  <body>
+    <nav class="m-3">
+      <a href="index.html">Home</a> | <a href="react.html">React</a> |
+      <a href="geolocation.html">Geolocation</a>
+    </nav>
+    <header>
+      <div>Herzlich willkommen!</div>
+      <div>Unsere Online-Shops und Service-Angebote</div>
+    </header>
+    <main>
       <div>
-        {/* Bildkarten */}
+        <!-- Bildkarten -->
         <div>
           <div>Landwirtschaft</div>
           <div>
@@ -51,14 +50,11 @@ function App() {
         </div>
       </div>
       <div>
-        {/* Kontakt & Karriere */}
+        <!-- Kontakt und Karriere -->
         <div>
           <div>Kontakt-Center</div>
           <div>
-            Haben Sie Fragen? <br />
-            Wir helfen Ihnen gerne.
-            <br />
-            Bitte wählen Sie Ihren gewünschten Bereich aus:
+            Haben Sie Fragen? <br />Wir helfen Ihnen gerne.<br />Bitte wählen Sie Ihren gewünschten Bereich aus:
           </div>
           <div>Landwirtschaft</div>
           <div>Baustoffe</div>
@@ -69,8 +65,8 @@ function App() {
           <div>Wir bieten vielseitige Jobmöglichkeiten mit Perspektive. Steigen Sie jetzt bei uns ein.</div>
         </div>
       </div>
-    </div>
-  );
-}
-
-export default App;
+    </main>
+    <script type="module" src="/src/react/main.tsx"></script>
+    <script type="module" src="/src/tailwind.ts"></script>
+  </body>
+</html>
