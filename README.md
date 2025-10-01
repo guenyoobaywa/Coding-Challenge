@@ -7,31 +7,10 @@ So for example ChatGPT would be ok, as well as googling, as long as no code is b
 
 ## SETUP
 
-You have the choice between the following:
-
-- React
-- VanillaJS
-- TypeScript
-
-Each of these has its own folder in src and can be used as you like.
-To start, run the corresponding npm run dev:
-
-React
+To run the project:
 
 ```
 npm run dev
-```
-
-Vanilla JS
-
-```
-npm run dev:js
-```
-
-TypeScript
-
-```
-npm run dev:ts
 ```
 
 ## INSTRUCTIONS
@@ -52,67 +31,14 @@ Image URLS:
 
 PAGE STRUCTURE (in Markdown)
 
-# Landing page elements
+## Parts
 
-## Top navigation
+### Create the HTML Semantic Structure in EITHER html.html or in src/react/App.tsx
 
-### Shop Tabs
+### Create a geoLocation Component
 
-These can be ignored for now, as they come from a common library
+When you press the button, please display the Street Address below the button, using the geolocation API
 
-### Header
+### Backend in src/backend/App.tsx
 
-This has the company logo and claim on the left side, and a link to the user's account on the right
-
-## Link lists
-
-Our links are divided into three groups
-
-- Landwirtschaft (with image)
-
-  - [Tierhaltung](/link)
-  - [Pflanzenbau](/link)
-  - [Ersatzteile](/link)
-  - [Maschinen](/link)
-  - [Hof & Garten](/link)
-
-- Baustoffe (with image)
-
-  - [Baugeräte & Werkzeuge](/link)
-  - [Garten](/link)
-  - [Dach](/link)
-  - [Innenausbau](/link)
-  - [ganzes Sortiment entdecken](/link)
-
-- Energie (with image)
-  - [Heizöl](/link)
-  - [Diesel](/link)
-  - [Holzpellets](/link)
-  - [Schmierstoffe](/link)
-  - [Tankkarten & neue Mobilität](/link)
-
-## Contact and jobs
-
-### Kontakt-Center
-
-Haben Sie Fragen?
-Wir helfen Ihnen gerne.
-Bitte wählen Sie Ihren gewünschten Bereich aus:
-
-- Landwirtschaft
-- Baustoffe
-- Energie
-
-## Footer
-
-(left side)
-
-- © BayWa AG
-
-(right side)
-
-- Impressum
-- AGB
-- Datenschutz
-- Hinweisgeber-System
-- Cookie-Einstellung
+Should send a POST request to a local Backend
