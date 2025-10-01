@@ -1,23 +1,14 @@
 async function fetchAddress(lat: number, lon: number) {
-  const addressResponse = await fetch(`https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lon}&format=json`);
-  const addressData = await addressResponse.json();
+  // implementation of fetchAddress
   return addressData;
 }
 
 function getCurrentPosition(options?: PositionOptions) {
-  return new Promise<GeolocationPosition>((resolve, reject) => {
-    if (!('geolocation' in navigator)) {
-      reject(new Error('Geolocation is not supported by your browser.'));
-      return;
-    }
-    navigator.geolocation.getCurrentPosition(resolve, reject, options);
-  });
+  // implementation of getCurrentPosition
 }
 
 async function getGeoLocation() {
-  const pos = await getCurrentPosition();
-
-  const { latitude, longitude } = pos.coords;
+  // implementation of GeoLocation
   return fetchAddress(latitude, longitude);
 }
 
