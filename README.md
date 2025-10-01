@@ -13,7 +13,9 @@ To run the project:
 npm run dev
 ```
 
-## INSTRUCTIONS
+## Challenge 1 - Semantic HTML and CSS
+
+### Create the HTML Semantic Structure in EITHER html.html or in src/react/App.tsx
 
 1.  Go to https://baywa.de
 2.  Analyze the page and its modules
@@ -29,16 +31,29 @@ Image URLS:
 - Baustoffportal: /baywa-baustoffe.jpg
 - Energieportal: /baywa-energie.jpg
 
-PAGE STRUCTURE (in Markdown)
+### Architecture:
 
-## Parts
+You can choose between React or Plain HTML.
 
-### Create the HTML Semantic Structure in EITHER html.html or in src/react/App.tsx
+- React
+  - All files are in src/react
+  - The Source File to work in is src/react/App.tsx
+- Plain HTML
+  - Please work with the ./html.html file provided in the root path.
 
-### Create a geoLocation Component
+### Styling
 
-When you press the button, please display the Street Address below the button, using the geolocation API
+You can use either Tailwind or regular CSS via either a global stylesheet or a module stylesheet. All files are already created for you.
 
-### Backend in src/backend/App.tsx
+### Goal
 
-Should send a POST request to a local Backend
+The Goal is to have a semantically good Template with two distinct media queries (mobile and desktop). Please refer to ./public/desktop-view and ./public/mobile-view accordingly.
+It is not important that you finish everything perfectly, at the end of the day – to us – it's more important to see how you work and where your strengths and weaknesses lie. Please ask for help if you need it, as you would do that in your day to day too.
+
+## Challenge 2 - Create a geoLocation Component
+
+When you press the button, please display the Street Address below the button, [using the geolocation API from OpenStreetMap](https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lon}&format=json).
+
+## Optional Full Stack Challenge 3 - Backend in src/backend/App.tsx
+
+Should send a POST request to a local Backend: https://github.com/dukhine/baywa-coding-challenge-backend

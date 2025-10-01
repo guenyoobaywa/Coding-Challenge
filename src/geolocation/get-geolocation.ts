@@ -1,5 +1,7 @@
 async function fetchAddress(lat: number, lon: number) {
   // implementation of fetchAddress
+  // use OpenStreetMaps API:
+  // https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lon}&format=json
   return addressData;
 }
 
