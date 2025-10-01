@@ -29,7 +29,6 @@ const GeolocateAddress: React.FC = () => {
     try {
       const geoAddress = await getGeoLocation();
       setAddress(geoAddress.address);
-      console.log(address);
     } catch (err) {
       setError('Failed to retrieve location');
     } finally {
